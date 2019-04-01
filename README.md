@@ -1,0 +1,2 @@
+- Pod install
+- Open workspace
