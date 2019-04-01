@@ -24,7 +24,7 @@
 		A561164CEF98145C611CE4F9 /* Pods-IntelityTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelityTestTask.release.xcconfig"; path = "Target Support Files/Pods-IntelityTestTask/Pods-IntelityTestTask.release.xcconfig"; sourceTree = "<group>"; };
 		BB3285B97F549844547D7C71 /* Pods-IntelityTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelityTestTask.debug.xcconfig"; path = "Target Support Files/Pods-IntelityTestTask/Pods-IntelityTestTask.debug.xcconfig"; sourceTree = "<group>"; };
 		BEEB80849989BD6C2E8A4110 /* Pods_IntelityTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelityTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE05A18C224FF49800346B2F /* IntelityTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelityTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE05A18C224FF49800346B2F /* WeatherTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE05A18F224FF49800346B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE05A191224FF49800346B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE05A194224FF49800346B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		CE05A183224FF49800346B2F = {
 			isa = PBXGroup;
 			children = (
-				CE05A18E224FF49800346B2F /* IntelityTestTask */,
+				CE05A18E224FF49800346B2F /* WeatherTestTask */,
 				CE05A18D224FF49800346B2F /* Products */,
 				F6682B41B7BBAFCA36754AE6 /* Pods */,
 				8C0C718CD7EC2E53BCF168ED /* Frameworks */,
@@ -71,12 +71,12 @@
 		CE05A18D224FF49800346B2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE05A18C224FF49800346B2F /* IntelityTestTask.app */,
+				CE05A18C224FF49800346B2F /* WeatherTestTask.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE05A18E224FF49800346B2F /* IntelityTestTask */ = {
+		CE05A18E224FF49800346B2F /* WeatherTestTask */ = {
 			isa = PBXGroup;
 			children = (
 				CE05A18F224FF49800346B2F /* AppDelegate.swift */,
@@ -91,7 +91,7 @@
 				CEA8950522515D740012F6C2 /* WeatherCell.swift */,
 				CEA89507225161400012F6C2 /* IconManager.swift */,
 			);
-			path = IntelityTestTask;
+			path = WeatherTestTask;
 			sourceTree = "<group>";
 		};
 		F6682B41B7BBAFCA36754AE6 /* Pods */ = {
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE05A18B224FF49800346B2F /* IntelityTestTask */ = {
+		CE05A18B224FF49800346B2F /* WeatherTestTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE05A19E224FF49B00346B2F /* Build configuration list for PBXNativeTarget "IntelityTestTask" */;
+			buildConfigurationList = CE05A19E224FF49B00346B2F /* Build configuration list for PBXNativeTarget "WeatherTestTask" */;
 			buildPhases = (
 				6C44E90D35F922F94B52B48F /* [CP] Check Pods Manifest.lock */,
 				CE05A188224FF49800346B2F /* Sources */,
@@ -120,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = IntelityTestTask;
+			name = WeatherTestTask;
 			productName = IntelityTestTask;
-			productReference = CE05A18C224FF49800346B2F /* IntelityTestTask.app */;
+			productReference = CE05A18C224FF49800346B2F /* WeatherTestTask.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE05A187224FF49800346B2F /* Build configuration list for PBXProject "IntelityTestTask" */;
+			buildConfigurationList = CE05A187224FF49800346B2F /* Build configuration list for PBXProject "WeatherTestTask" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE05A18B224FF49800346B2F /* IntelityTestTask */,
+				CE05A18B224FF49800346B2F /* WeatherTestTask */,
 			);
 		};
 /* End PBXProject section */
@@ -416,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE05A187224FF49800346B2F /* Build configuration list for PBXProject "IntelityTestTask" */ = {
+		CE05A187224FF49800346B2F /* Build configuration list for PBXProject "WeatherTestTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE05A19C224FF49B00346B2F /* Debug */,
@@ -425,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE05A19E224FF49B00346B2F /* Build configuration list for PBXNativeTarget "IntelityTestTask" */ = {
+		CE05A19E224FF49B00346B2F /* Build configuration list for PBXNativeTarget "WeatherTestTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE05A19F224FF49B00346B2F /* Debug */,
