@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C1B445F3D0326F7FEFBF724 /* Pods_IntelityTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEB80849989BD6C2E8A4110 /* Pods_IntelityTestTask.framework */; };
+		55781883AC3ECB6D48C484BB /* Pods_WeatherTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A59E0B30527C6D0EC5AB7DB /* Pods_WeatherTestTask.framework */; };
 		CE05A190224FF49800346B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05A18F224FF49800346B2F /* AppDelegate.swift */; };
 		CE05A192224FF49800346B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE05A191224FF49800346B2F /* ViewController.swift */; };
 		CE05A195224FF49800346B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE05A193224FF49800346B2F /* Main.storyboard */; };
@@ -21,9 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A59E0B30527C6D0EC5AB7DB /* Pods_WeatherTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A561164CEF98145C611CE4F9 /* Pods-IntelityTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelityTestTask.release.xcconfig"; path = "Target Support Files/Pods-IntelityTestTask/Pods-IntelityTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		B0E240810D93C1CEE507154B /* Pods-WeatherTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTestTask.debug.xcconfig"; path = "Target Support Files/Pods-WeatherTestTask/Pods-WeatherTestTask.debug.xcconfig"; sourceTree = "<group>"; };
 		BB3285B97F549844547D7C71 /* Pods-IntelityTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelityTestTask.debug.xcconfig"; path = "Target Support Files/Pods-IntelityTestTask/Pods-IntelityTestTask.debug.xcconfig"; sourceTree = "<group>"; };
-		BEEB80849989BD6C2E8A4110 /* Pods_IntelityTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelityTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8828165F47A1026E241D98C /* Pods-WeatherTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTestTask.release.xcconfig"; path = "Target Support Files/Pods-WeatherTestTask/Pods-WeatherTestTask.release.xcconfig"; sourceTree = "<group>"; };
 		CE05A18C224FF49800346B2F /* WeatherTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE05A18F224FF49800346B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE05A191224FF49800346B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C1B445F3D0326F7FEFBF724 /* Pods_IntelityTestTask.framework in Frameworks */,
+				55781883AC3ECB6D48C484BB /* Pods_WeatherTestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +55,7 @@
 		8C0C718CD7EC2E53BCF168ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BEEB80849989BD6C2E8A4110 /* Pods_IntelityTestTask.framework */,
+				7A59E0B30527C6D0EC5AB7DB /* Pods_WeatherTestTask.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,6 +101,8 @@
 			children = (
 				BB3285B97F549844547D7C71 /* Pods-IntelityTestTask.debug.xcconfig */,
 				A561164CEF98145C611CE4F9 /* Pods-IntelityTestTask.release.xcconfig */,
+				B0E240810D93C1CEE507154B /* Pods-WeatherTestTask.debug.xcconfig */,
+				C8828165F47A1026E241D98C /* Pods-WeatherTestTask.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -180,7 +184,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IntelityTestTask/Pods-IntelityTestTask-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherTestTask/Pods-WeatherTestTask-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -195,7 +199,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntelityTestTask/Pods-IntelityTestTask-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherTestTask/Pods-WeatherTestTask-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C44E90D35F922F94B52B48F /* [CP] Check Pods Manifest.lock */ = {
@@ -213,7 +217,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IntelityTestTask-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeatherTestTask-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -377,12 +381,12 @@
 		};
 		CE05A19F224FF49B00346B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB3285B97F549844547D7C71 /* Pods-IntelityTestTask.debug.xcconfig */;
+			baseConfigurationReference = B0E240810D93C1CEE507154B /* Pods-WeatherTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FYK4DJBPRV;
-				INFOPLIST_FILE = IntelityTestTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WeatherTestTask/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,12 +400,12 @@
 		};
 		CE05A1A0224FF49B00346B2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A561164CEF98145C611CE4F9 /* Pods-IntelityTestTask.release.xcconfig */;
+			baseConfigurationReference = C8828165F47A1026E241D98C /* Pods-WeatherTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FYK4DJBPRV;
-				INFOPLIST_FILE = IntelityTestTask/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WeatherTestTask/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
